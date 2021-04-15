@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        button{
+            margin-top: 10px;
+            width: 100px;
+        }
+        #div1, #div2, #div3, #div7, #div8, #div9{
+            width: 100px;
+            height: 100px;
+            background :rgb(180, 119, 27);
+            margin-top: 10px;
+            display: none;
+        }
+        #div4, #div5, #div6{
+            width: 100px;
+            height: 100px;
+            background :rgb(180, 119, 27);
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="in">FADE IN</button>
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+
+        <button id="out">FADE OUT</button>
+        <div id="div4"></div>
+        <div id="div5"></div>
+        <div id="div6"></div>
+
+        <button id="toggle">FADE TOGGLE</button>
+        <div id="div7"></div>
+        <div id="div8"></div>
+        <div id="div9"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
