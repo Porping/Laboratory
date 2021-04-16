@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.background-header{
+    height: 90vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+
+}
+
+.abc{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+}
+
+.btn{
+    height: 90px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+.btn-tomato{
+    background: rgb(255, 60, 0);
+}
+.btn-tomato:hover{
+    background: rgb(173, 6, 6);
+}
+
+.btn-violet{
+    background: violet;
+}
+.btn-violet:hover{
+    background: rgb(155, 43, 155);
+}
+
+.btn-wheat{
+    background: wheat;
+
+}
+.btn-wheat:hover{
+    background: rgb(179, 141, 71);
+
+}
+
+.btn-yellow{
+    background: yellow;
+}
+.btn-yellow:hover{
+    background: rgb(146, 146, 46);
+}
+
+.btn-yellowgreen{
+    background: yellowgreen;
+}
+.btn-yellowgreen:hover{
+    background: rgb(95, 128, 30);
+}
