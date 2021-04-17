@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mydata{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+td{
+    text-align: center;
+    width: 200px;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: skyblue;
+    transition: .3s;
+    cursor: pointer;
+}
+
+td:hover{
+    transform: translate(0px,-2px);
+}
