@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w8.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Create, Read, Update, Delete App</h2>
+        <form onsubmit="event.preventDefault()">
+            <input type="text" name="" id="fname" placeholder="firstname">
+            <input type="text" name="" id="lname" placeholder="lastname">
+            <button class="clear" onclick="clearForm()" >Clear</button>
+            <br>
+            <br>
+            <button onclick="create()">Create</button>
+            <button onclick="update()">Update</button>
+            <button>Delete</button>
+            <br>
+            <br>
+            <select name="" id="panel" size="20" onclick="panelClick()">
+                <option value="">Por, Natthapon</option>
+            </select>
+
+        </form>
+    </div>
+    <script src="w8.js"></script>
+</body>
+</html>

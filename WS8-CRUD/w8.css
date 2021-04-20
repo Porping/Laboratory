@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+h2{
+    margin-top: 30px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px 20px;
+
+}
+
+
+.clear{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
+
+select{
+    width: 100%;
+    font-size: 20px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
