@@ -8,7 +8,7 @@ let data = [
 ]
 
 
-let panel = document.querySelector('#panel');
+let panel = document.querySelector('#panel')            ;
 
 
 function clearForm() {
