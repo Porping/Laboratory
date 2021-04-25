@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-wrap {
+  margin: 120px 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#ide-parent {
+  width: 90%;
+  height: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+#button-wrapper {
+  display: flex;
+  width: 100%;
+  height: 60px;
+}
+
+#button-wrapper button {
+  width: 25%;
+  border: none;
+  background: #333;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  outline: none;
+  transition-duration: 300ms;
+}
+
+#button-wrapper button:hover {
+  background: #151515;
+}
+
+#ide-container {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+}
+
+.panel-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#html {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#css {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#js {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#result {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border: none;
+}
+
+.footer {
+  text-align: center;
+  color: rgba(221, 221, 221, 0.6);
+  font-family: sans-serif;
+  font-size: 13px;
+  background: #333;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
