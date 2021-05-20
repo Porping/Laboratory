@@ -1,0 +1,40 @@
+.landing {
+  background-color: #666666;
+  background-image: url("image/landing.jpg");
+  background-position: center top; /*first is x second is y */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.landing-overlay {
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+.landing-content {
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-content {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
+.footer-social-link {
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-social-icon {
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.footer-social-icon,
+.footer-social-text {
+  vertical-align: middle;
+}
