@@ -23,7 +23,7 @@
         </div>
         <div class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item" href="product.htm">
+                <a class="navbar-item">
                     Products
                 </a>
             </div>
@@ -43,71 +43,68 @@
             </div>
         </div>
     </nav>
-    <section class="hero is-medium is-link landing">
-        <div class="landing-overlay is-overlay"></div>
-        <div class="hero-body landing-content">
-            <div class="container has-text-centered	">
-                <p class="title is-size-4-mobile is-size-2-tablet">
-                    CafeIn Coffee
-                </p>
-                <p class="subtitle is-size-5-mobile  is-size-4-tablet">
-                    Welcome to my world
-                </p>
-                <a href="product.htm" class="button is-success">All Products</a>
-            </div>
-        </div>
-    </section>
-
-
-
+    <h3 class="title is-size-4-mobile  is-size-3-tablet has-text-centered mb-4">Our products</h3>
     <section class="section">
         <div class="container">
-            <h3 class="title is-size-4-mobile  is-size-3-tablet has-text-centered mb-6">Featured products</h3>
+            <div class="buttons has-addons is-centered">
+                <button class="button is-dark filter-button" data-category = 'all'>All</button>
+                <button class="button filter-button" data-category = 'coffee'>Coffee</button>
+                <button class="button filter-button" data-category = 'bread'>Bread</button>
+                <button class="button filter-button" data-category = 'cake'>Cake</button>
+            </div>
             <div class="columns is-multiline">
-                <div class="column is-4">
+                <div class="column is-4 product-column" data-category="coffee">
                     <div class="content">
-                        <p><img src="image/featured-01.jpg" alt=""></p>
+                        <p><img src="image/product-01.jpg" alt=""></p>
                         <h5 class="title is-size-5">Super Espressp</h5>
                         <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit fuga sequi
                             enim quam tempora?</p>
                     </div>
                 </div>
-                <div class="column is-4">
+                <div class="column is-4 product-column" data-category="bread">
                     <div class="content">
-                        <p><img src="image/featured-02.jpg" alt=""></p>
+                        <p><img src="image/product-02.jpg" alt=""></p>
                         <h5 class="title is-size-5">Chocolate Bread</h5>
                         <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit fuga sequi
                             enim quam tempora?</p>
                     </div>
                 </div>
-                <div class="column is-4">
+                <div class="column is-4 product-column" data-category="cake">
                     <div class="content">
-                        <p><img src="image/featured-03.jpg" alt=""></p>
+                        <p><img src="image/product-03.jpg" alt=""></p>
                         <h5 class="title is-size-5">Chocolate Cake</h5>
                         <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit fuga sequi
                             enim quam tempora?</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="columns is-gapless is-vcentered has-background-black-ter has-text-white">
-            <div class="column">
-                <img class="is-block" src="image/location.jpg" alt="">
-            </div>
-            <div class="column">
-                <div class="content has-text-centered px-4 py-6">
-                    <h5 class="title is-size-5 has-text-white">Location</h5>
-                    <p class="mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, blanditiis.</p>
-                    <h5 class="title is-size-5 has-text-white">Opentimes</h5>
-                    <p class="mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, blanditiis.</p>
+                <div class="column is-4 product-column" data-category="coffee">
+                    <div class="content">
+                        <p><img src="image/product-04.jpg" alt=""></p>
+                        <h5 class="title is-size-5">Cappuccino</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit fuga sequi
+                            enim quam tempora?</p>
+                    </div>
+                </div>
+                <div class="column is-4 product-column" data-category="bread">
+                    <div class="content">
+                        <p><img src="image/product-05.jpg" alt=""></p>
+                        <h5 class="title is-size-5">Croissant</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit fuga sequi
+                            enim quam tempora?</p>
+                    </div>
+                </div>
+                <div class="column is-4 product-column" data-category='cake'>
+                    <div class="content">
+                        <p><img src="image/product-06.jpg" alt=""></p>
+                        <h5 class="title is-size-5">Strawberry Cake</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit fuga sequi
+                            enim quam tempora?</p>
+                    </div>
                 </div>
             </div>
+            </div>
         </div>
     </section>
-
 
     <footer class="footer">
         <div class="container">

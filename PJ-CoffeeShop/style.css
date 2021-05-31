@@ -38,3 +38,12 @@
 .footer-social-text {
   vertical-align: middle;
 }
+
+.product-column {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.fade-out {
+  opacity: 0;
+}
