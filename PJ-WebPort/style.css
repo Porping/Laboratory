@@ -46,7 +46,6 @@ a {
   margin: 0 auto;
   padding: 0 50px;
   justify-content: flex-start;
-  border: 2px solid black;
 }
 #hero h1 {
   display: block;
