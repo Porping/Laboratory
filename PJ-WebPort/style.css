@@ -471,3 +471,14 @@ img {
 }
 
 /* end Keyframe */
+
+/* Media Query For Tablet */
+
+@media only screen and (min-width: 768px) {
+  #about .cta {
+    font-size: 2.5rem;
+    padding: 20px 60px;
+  }
+}
+
+/* End Media Query For Tablet */
